@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: process.env.VITE_API_URL || 'https://mernestate-backend-4v8u.onrender.com',
+        target:  'https://mernestate-backend-1.onrender.com',
         changeOrigin: true,
         secure: false,
       },
